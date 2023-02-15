@@ -1,12 +1,17 @@
 package com.internal;
 
-public class Test {
-    int i;
-    public static void main(String[] args){
-        int x = -4;
-        int y = x >> 1;
+import java.util.LinkedList;
+import java.util.List;
 
-        System.out.println(y);
+public class Test {
+
+    public static void main(String[] args){
+        LinkedList<Integer> list = new LinkedList<>();
+
+        list.add(1);list.add(2);list.add(3);list.add(4);list.add(5);list.add(6);
+
+        for (Integer i : list){
+        }
     }
 }
 
